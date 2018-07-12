@@ -1,0 +1,24 @@
+目录组织结构如下：
+----src
+|
+|---common
+|---client
+|---server
+|---output
+
+各目录结构含义如下：
+common：公共头文件。
+client：客户端程序源代码。
+server：服务端程序源代码。
+output：生成的可执行文件。
+
+在output目录先运行server.exe，然后再执行多个demo.exe（可在不同的机器上运行）。
+demo.exe程序所需的账号和用户名如下：
+test    123456
+admin   admin
+guest   guest
+root	root
+hnau	123456
+common	123456
+demo.exe运行时，鼠标点击左键人物行走，点击右键交谈。
+观察多个客户端画面的同步显示。

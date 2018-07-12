@@ -1,0 +1,2 @@
+demo ICON "res/demo.ico"
+#include "wx/msw/wx.rc"
